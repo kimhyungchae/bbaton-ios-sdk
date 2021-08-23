@@ -1,0 +1,11 @@
+framework module BbatonIOSFramework {
+  umbrella header "BbatonIOSFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module BbatonIOSFramework.Swift {
+    header "BbatonIOSFramework-Swift.h"
+    requires objc
+}
