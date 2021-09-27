@@ -9,9 +9,9 @@ import UIKit
 import BbatonIOSFramework
 
 class TestViewController: UIViewController, BbatonDelegate {
-    func sendUserData(adult_flag: String?) {
+    func sendUserData(adult_flag: String?, user_id: String?) {
         DispatchQueue.main.async {
-            self.textView.text = "ADULT_FLAG :: " + adult_flag!
+            self.textView.text = "ADULT_FLAG :: " + adult_flag! + " USER_ID :: " + user_id!
         }
     }
     

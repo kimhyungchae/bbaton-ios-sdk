@@ -8,5 +8,5 @@
 import Foundation
 
 public protocol BbatonDelegate {
-    func sendUserData(adult_flag: String?)
+    func sendUserData(adult_flag: String?, user_id: String?)
 }

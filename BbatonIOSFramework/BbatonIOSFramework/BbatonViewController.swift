@@ -23,6 +23,7 @@ public class BbatonViewController: UIViewController, WKUIDelegate, WKNavigationD
     private var scope: String = ""
     
     private var adult_flag: String? = ""
+    private var user_id: String? = ""
     
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var progressBar: UIProgressView!
@@ -111,9 +112,10 @@ public class BbatonViewController: UIViewController, WKUIDelegate, WKNavigationD
                 //create json object from data
                 if let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String: Any] {
                     self.adult_flag = json["adult_flag"] as? String
+                    self.user_id = json["user_id"] as? String
                     
                     
-                    delegate?.sendUserData(adult_flag: self.adult_flag)
+                    delegate?.sendUserData(adult_flag: self.adult_flag, user_id: self.user_id)
                 }
             } catch let error {
                 print(error.localizedDescription)
