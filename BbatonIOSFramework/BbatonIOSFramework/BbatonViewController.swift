@@ -23,6 +23,8 @@ public class BbatonViewController: UIViewController, WKUIDelegate, WKNavigationD
     private var scope: String = ""
     
     private var adult_flag: String? = ""
+    private var income: String? = ""
+    private var student: String? = ""
     private var user_id: String? = ""
     
     @IBOutlet weak var textView: UITextView!
@@ -30,7 +32,7 @@ public class BbatonViewController: UIViewController, WKUIDelegate, WKNavigationD
     
     
 //    private var API_PATH = "http://localhost:8081"
-    private var API_PATH = "http://bbaton-dev-alb-1460319868.ap-northeast-2.elb.amazonaws.com:8081"
+    private var API_PATH = "http://bauth.bbaton.com"
     
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -113,9 +115,10 @@ public class BbatonViewController: UIViewController, WKUIDelegate, WKNavigationD
                 if let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String: Any] {
                     self.adult_flag = json["adult_flag"] as? String
                     self.user_id = json["user_id"] as? String
+                    self.income = json["income"] as? String
+                    self.student = json["student"] as? String
                     
-                    
-                    delegate?.sendUserData(adult_flag: self.adult_flag, user_id: self.user_id)
+                    delegate?.sendUserData(adult_flag: self.adult_flag, user_id: self.user_id, income: self.income, student: self.student)
                 }
             } catch let error {
                 print(error.localizedDescription)
