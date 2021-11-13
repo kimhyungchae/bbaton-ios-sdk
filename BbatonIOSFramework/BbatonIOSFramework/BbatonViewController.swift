@@ -85,7 +85,7 @@ public class BbatonViewController: UIViewController, WKUIDelegate, WKNavigationD
     
     func get(authorization: String) {
         //create the url with NSURL
-        let urlString = self.API_PATH + "/v1/user/me"
+        let urlString = self.API_PATH + "/v2/user/me"
         print("URL :: ", urlString);
         let url = URL(string: urlString)! //change the url
 

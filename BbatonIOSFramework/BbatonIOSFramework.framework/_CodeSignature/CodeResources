@@ -6,11 +6,11 @@
 	<dict>
 		<key>Bbaton.storyboardc/BbatonViewController.nib/objects-13.0+.nib</key>
 		<data>
-		bBjMa3QaoTwarM4eDqaGGwnuFKA=
+		0VEBXSg2UMoCwg4MwzLf71fkQVQ=
 		</data>
 		<key>Bbaton.storyboardc/BbatonViewController.nib/runtime.nib</key>
 		<data>
-		BYeDdLqORQwKsxlL97xrN1frKxg=
+		nsDJo3OrEDgjPKBLtC4au/O4LYw=
 		</data>
 		<key>Bbaton.storyboardc/Info.plist</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Bbaton.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/objects-13.0+.nib</key>
 		<data>
-		IhM68d+lne7980cHsi0lNEjiR9o=
+		attouSLFBwqiBUItBvxCpj2/ucs=
 		</data>
 		<key>Bbaton.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/runtime.nib</key>
 		<data>
-		Ec4+dfBZRmlpw4MJQsv6RadUVms=
+		OCQNkO9dNzuv0uw4liK9vvWRTqw=
 		</data>
 		<key>Headers/BbatonIOSFramework-Swift.h</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/BbatonIOSFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		QTncYsOGL6acy+McxesopQid19k=
+		QC6RskQcDmEBlvN88d9ej6Oz3T4=
 		</data>
 		<key>Modules/BbatonIOSFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		QTncYsOGL6acy+McxesopQid19k=
+		QC6RskQcDmEBlvN88d9ej6Oz3T4=
 		</data>
 		<key>Modules/BbatonIOSFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/BbatonIOSFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		9UvtJGwAeqRZPGRavx5zNBRa9XI=
+		oMUBcf3i9lbWtu09PqKtcdSm+hc=
 		</data>
 		<key>Modules/BbatonIOSFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/BbatonIOSFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		9UvtJGwAeqRZPGRavx5zNBRa9XI=
+		oMUBcf3i9lbWtu09PqKtcdSm+hc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Oqry8CWSwAj5Fl7Zvm/2KRodPx2DDt8BEHWhFsMj2G0=
+			LSmR+s7749N044wqpKZC7kqZIrofrWZvDc5eLa+AUeM=
 			</data>
 		</dict>
 		<key>Bbaton.storyboardc/BbatonViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FFsazezlG3K4WUJGw5JqPtbk6m0tXo3HnZ0lSXeMUlA=
+			iSYDhYKSWbABdJsLM5nUbMp8xlMLBhSRHEmfmtjfZCo=
 			</data>
 		</dict>
 		<key>Bbaton.storyboardc/Info.plist</key>
@@ -92,14 +92,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T2UAbd6bPMBYNSJq2zcQfxreNsOCLUtEsnXMSkHmohI=
+			XyZ5Pv1N0DkyImO4KocFOXv13S6uMCf8oWDYvatiixk=
 			</data>
 		</dict>
 		<key>Bbaton.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hZnODqhwUGjojTtynN9w3C1ac30VZlZxfQcOIROo858=
+			epvOrsS/O85CQuefySrXLYJLm4MPwwxpyIx5qxmTUYE=
 			</data>
 		</dict>
 		<key>Headers/BbatonIOSFramework-Swift.h</key>
@@ -120,14 +120,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KFDaatPM/FH68tB3LUHmot4XfgR7mb6tmBwejFYf9Vc=
+			ewyulf2GAzUsN2nMhlXFhLjrWthfUP06Ui8lUBHAMjE=
 			</data>
 		</dict>
 		<key>Modules/BbatonIOSFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KFDaatPM/FH68tB3LUHmot4XfgR7mb6tmBwejFYf9Vc=
+			ewyulf2GAzUsN2nMhlXFhLjrWthfUP06Ui8lUBHAMjE=
 			</data>
 		</dict>
 		<key>Modules/BbatonIOSFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -141,7 +141,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nlolV673+SXc+d5cJzSsJHoL7erPQmt07F2VWanLqO8=
+			uiXKyP4iPOlFr03SnRmrNW6foQNENb643JbL3btlzyo=
 			</data>
 		</dict>
 		<key>Modules/BbatonIOSFramework.swiftmodule/arm64.swiftdoc</key>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nlolV673+SXc+d5cJzSsJHoL7erPQmt07F2VWanLqO8=
+			uiXKyP4iPOlFr03SnRmrNW6foQNENb643JbL3btlzyo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
